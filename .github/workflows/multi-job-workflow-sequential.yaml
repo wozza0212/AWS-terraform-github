@@ -1,4 +1,4 @@
-name: Multi Job Workflow
+name: Multi Job Workflow sequential
 on: workflow_dispatch
 jobs:
   build:
