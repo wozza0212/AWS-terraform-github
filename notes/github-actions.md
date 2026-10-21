@@ -4,3 +4,9 @@
 - Jobs run in pararell by default
 - could have seperate workflows for build, test and deployment
 - 
+
+Types of triggers
+- Event Based
+- Manual
+- Scheduled
+- Workflow
