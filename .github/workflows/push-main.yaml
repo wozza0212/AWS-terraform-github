@@ -2,7 +2,7 @@ name: On Push to Main
 on:
   push:
     branches:
-      - main
+      - actions-triggers
 jobs: 
   push-main-job:
     runs-on: ubuntu-latest
