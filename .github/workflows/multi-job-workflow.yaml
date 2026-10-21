@@ -1,0 +1,21 @@
+name: Multi Job Workflow
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Step
+        run: echo "Building the project"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Step
+        run: echo "Running tests"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Step
+        run: |
+          echo "Deploying the project"
+          echo "each job has it's own runner"
+          echo "Deploying the project"
